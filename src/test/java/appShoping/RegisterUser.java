@@ -42,6 +42,7 @@ public class RegisterUser extends BaseInitializer{
 	public void tearDown() {
 		
 		System.out.println("Inside closing browser");
+		//New Changes
 		driver.close();
 	}
 }
